@@ -1,4 +1,4 @@
-package com.spider.easymoney;
+package com.spider.easymoney.util;
 
 import com.dao.mapper.CommentMapper;
 import com.dao.util.DBTools;
@@ -20,8 +20,9 @@ import static com.spider.easymoney.util.EasymoneyUtil.RETRY_TIME;
 /*
  * Create by s lion h on 2018/6/9
  */
-public class EasymoneyDemo {
+public class EasymoneyMain implements Runnable{
     SqlSession session=DBTools.getSession();
+    private List<String> stocklist=session.selectList("listStockId");
 
     public void getAllComment(String stockId) throws IOException {
 //        获取股票id，爬取该id的text，date录入数据库
@@ -74,6 +75,7 @@ public class EasymoneyDemo {
             //获取date
             for(String url : aList){
                 //遍历url
+//                dateList.add("2018-04-04");
                 dateList.add(EasymoneyUtil.findDateByATag(url));
             }
 
@@ -95,17 +97,44 @@ public class EasymoneyDemo {
                 stockComment.setDate(dateList.get(n));
                 stockComment.setText(textList.get(n));
                 stockComment.setStockId(stockId);
+//            	  System.out.println(n+" text:"+stockComment.getText()+" date:"+stockComment.getDate());
                 try {
+//                    完成的stockcomment写入数据库
 //                    CommentMapper.addStockComment(stockComment);
-                    session.insert("addStockComment",stockComment);
+//                    System.out.println(stockComment.toString());
+//                    session.insert("addStockComment",stockComment);
+//                    session.commit();
+//                    session.close();
                 } catch (Exception e) {
                     //				 有些text含有编码问题，则跳过:惯性培养，强👍
+                    e.printStackTrace();
                     System.out.println("text出错啦!!");
                 }
 
-            //	  System.out.println(n+" text:"+stockComment.getText()+" date:"+stockComment.getDate());
             }
         }
         System.out.println(stockId + "done!!!!!!!!!!!!!!!!!");
+    }
+
+    public synchronized String getStockId(){
+        String id=stocklist.get(1);
+        stocklist.remove(1);
+        return id;
+    }
+
+    @Override
+    public void run() {
+        try {
+            for(int time=1;time<50;time++){
+                if (stocklist!=null){
+                    String id=getStockId();
+                    System.out.println(Thread.currentThread().getName()+"正在处理 " + id+"（第"+time+"轮）");
+                    getAllComment(id);
+                }
+
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

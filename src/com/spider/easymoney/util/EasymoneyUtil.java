@@ -34,6 +34,7 @@ public class EasymoneyUtil {
             return total / page;
         }
         return total / page + 1;
+//        return 3;
     }
 
 //    获取帖子标题的a标签，返回该帖子的发布时间
@@ -62,7 +63,6 @@ public class EasymoneyUtil {
                     try {
                         Thread.sleep(3000);
                     } catch (InterruptedException e2) {
-                        // TODO: handle exception
                         continue;
                     }
                 }

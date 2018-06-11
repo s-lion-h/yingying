@@ -6,7 +6,6 @@ package com.po;
 public class StockComment {
     private Integer id;
     private String stockId;
-    private int read=0;
     private String text;
     private String date;
 
@@ -24,14 +23,6 @@ public class StockComment {
 
     public void setStockId(String stockId) {
         this.stockId = stockId;
-    }
-
-    public int getRead() {
-        return read;
-    }
-
-    public void setRead(int read) {
-        this.read = read;
     }
 
     public String getText() {
@@ -55,7 +46,6 @@ public class StockComment {
         return "StockComment{" +
                 "id=" + id +
                 ", stockId='" + stockId + '\'' +
-                ", read=" + read +
                 ", text='" + text + '\'' +
                 ", date='" + date + '\'' +
                 '}';

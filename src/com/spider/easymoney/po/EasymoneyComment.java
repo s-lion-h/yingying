@@ -3,6 +3,7 @@ package com.spider.easymoney.po;
 /*
  * Create by s lion h on 2018/5/6
  */
+@Deprecated
 public class EasymoneyComment {
     private Integer id;
     private String stockid;
