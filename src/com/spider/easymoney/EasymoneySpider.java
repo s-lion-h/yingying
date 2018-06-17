@@ -7,7 +7,7 @@ import com.spider.easymoney.util.EasymoneyMain;
  */
 public class EasymoneySpider {
 //    最大线程数,虽然大于5之后请求速度跟不上。。。
-    private static final int MAX_THREAD=5;
+    private static final int MAX_THREAD=2;
 
     public static void main(String[] args) {
         EasymoneyMain easymoneyMain=new EasymoneyMain();

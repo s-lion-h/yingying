@@ -8,7 +8,7 @@ import java.util.List;
  * Create by s lion h on 2018/5/7
  */
 public interface CommentMapper {
-    void insertComment(StockComment stockComment);
+//    void insertComment(StockComment stockComment);
     void addStockComment(StockComment stockComment);
     List<String> listStockId();
 }

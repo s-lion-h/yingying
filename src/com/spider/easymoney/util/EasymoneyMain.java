@@ -100,9 +100,8 @@ public class EasymoneyMain implements Runnable{
 //            	  System.out.println(n+" text:"+stockComment.getText()+" date:"+stockComment.getDate());
                 try {
 //                    完成的stockcomment写入数据库
-//                    CommentMapper.addStockComment(stockComment);
 //                    System.out.println(stockComment.toString());
-//                    session.insert("addStockComment",stockComment);
+                    session.insert("addStockComment",stockComment);
 //                    session.commit();
 //                    session.close();
                 } catch (Exception e) {
