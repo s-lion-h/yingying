@@ -102,7 +102,7 @@ public class EasymoneyMain implements Runnable{
 //                    完成的stockcomment写入数据库
 //                    System.out.println(stockComment.toString());
                     session.insert("addStockComment",stockComment);
-//                    session.commit();
+                    session.commit();
 //                    session.close();
                 } catch (Exception e) {
                     //				 有些text含有编码问题，则跳过:惯性培养，强👍

@@ -9,9 +9,6 @@ public class Score {
     private String date;
     private double score;
 
-    public Score() {
-    }
-
     public Score(String stockid, String date, double score) {
         this.stockid = stockid;
         this.date = date;

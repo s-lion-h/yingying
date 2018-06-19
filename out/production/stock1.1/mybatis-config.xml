@@ -32,5 +32,6 @@
         <!--<mapper resource="CommentMapper.xml"/>-->
         <!--<mapper resource="StockMapper.xml"/>-->
         <mapper resource="CommentMapper.xml"/>
+        <mapper resource="TcSentimentMapper.xml"/>
     </mappers>
 </configuration>

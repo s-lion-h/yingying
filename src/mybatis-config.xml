@@ -21,7 +21,7 @@
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver" />
                 <!--<property name="url" value="jdbc:mysql://localhost:3306/stock?useUnicode=true&amp;characterEncoding=utf-8" />-->
-                <property name="url" value="jdbc:mysql://120.77.80.58:3306/stock?useUnicode=true&amp;characterEncoding=utf-8" />
+                <property name="url" value="jdbc:mysql://999.77.80.58:3306/stock?useUnicode=true&amp;characterEncoding=utf-8" />
                 <!--<property name="url" value="jdbc:mysql://10.0.14.66:3306/stock?useUnicode=true&amp;characterEncoding=utf-8" />-->
                 <property name="username" value="root" />
                 <property name="password" value="123456" />
@@ -32,5 +32,6 @@
         <!--<mapper resource="CommentMapper.xml"/>-->
         <!--<mapper resource="StockMapper.xml"/>-->
         <mapper resource="CommentMapper.xml"/>
+        <mapper resource="TcSentimentMapper.xml"/>
     </mappers>
 </configuration>

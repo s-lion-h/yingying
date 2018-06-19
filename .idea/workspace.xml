@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="stock1.1:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ef89bb75-65ba-4fcd-b2f4-5428b5fdf73e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stock1.1/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stock1.1/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stock1.1/com/dao/mapper/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stock1.1/com/dao/mapper/CommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stock1.1/com/po/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stock1.1/com/po/Score.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stock1.1/com/spider/easymoney/EasymoneySpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stock1.1/com/spider/easymoney/EasymoneySpider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/stock1.1/com/spider/easymoney/util/EasymoneyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stock1.1/com/spider/easymoney/util/EasymoneyMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dao/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/mapper/CommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stock1.1/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stock1.1/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/po/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/po/Score.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spider/easymoney/EasymoneySpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spider/easymoney/EasymoneySpider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock1.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stock1.1.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,43 +45,16 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="stock1.1" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EasymoneyMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="104" column="39" lean-forward="true" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EasymoneySpider.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/EasymoneySpider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CommentMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dao/mapper/CommentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,61 +65,95 @@
       <file leaf-file-name="CommentMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CommentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="242">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EasymoneyComment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/po/EasymoneyComment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockComment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/po/StockComment.java">
+      <file leaf-file-name="TcSentimentMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dao/mapper/TcSentimentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentUrl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/CommentUrl.java">
+      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Sentiment/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+      <file leaf-file-name="SentimentMainV1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Sentiment/SentimentMainV1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="495">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EasymoneySpider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/EasymoneySpider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EasymoneyUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EasymoneyMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentimentMainV2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Sentiment/SentimentMainV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpRequestUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Sentiment/httpUtil/HttpRequestUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -149,6 +163,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -168,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/com/spider/easymoney/CommentUrl.java" />
         <option value="$PROJECT_DIR$/src/com/dao/util/DBTools.java" />
         <option value="$PROJECT_DIR$/src/com/po/Stock.java" />
-        <option value="$PROJECT_DIR$/src/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/com/spider/easymoney/EasymoneyDemo.java" />
         <option value="$PROJECT_DIR$/src/com/spider/easymoney/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyUtil.java" />
@@ -180,6 +195,16 @@
         <option value="$PROJECT_DIR$/src/CommentMapper.xml" />
         <option value="$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyMain.java" />
         <option value="$PROJECT_DIR$/src/com/spider/easymoney/EasymoneySpider.java" />
+        <option value="$PROJECT_DIR$/src/com/po/Score.java" />
+        <option value="$PROJECT_DIR$/src/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/com/dao/mapper/TcSentimentMapper.java" />
+        <option value="$PROJECT_DIR$/src/TcSentimentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/Sentiment/httpUtil/HttpRequestUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/Sentiment/httpUtil/TcService.java" />
+        <option value="$PROJECT_DIR$/src/com/Sentiment/httpUtil/TcDoGet.java" />
+        <option value="$PROJECT_DIR$/src/com/Sentiment/SentimentMainV2.java" />
+        <option value="$PROJECT_DIR$/src/com/Sentiment/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/Sentiment/SentimentMainV1.java" />
       </list>
     </option>
   </component>
@@ -199,10 +224,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1938" />
-    <option name="height" value="1068" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -212,12 +237,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="stock1.1" type="b2602c69:ProjectViewProjectNode" />
               <item name="stock1.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stock1.1" type="b2602c69:ProjectViewProjectNode" />
@@ -250,6 +282,14 @@
               <item name="stock1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="po" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -257,7 +297,15 @@
               <item name="stock1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="easymoney" type="462c0819:PsiDirectoryNode" />
+              <item name="Sentiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sentiment" type="462c0819:PsiDirectoryNode" />
+              <item name="httpUtil" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stock1.1" type="b2602c69:ProjectViewProjectNode" />
@@ -265,7 +313,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="easymoney" type="462c0819:PsiDirectoryNode" />
-              <item name="po" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stock1.1" type="b2602c69:ProjectViewProjectNode" />
@@ -283,8 +330,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -292,30 +337,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/MyBatis/slf4j-log4j12-1.7.25.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/net.sf.json/json-lib-2.4-jdk15.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\stock1.1\lib" />
+      <recent name="E:\idea\stock1.1\src\com\dao\mapper" />
       <recent name="E:\idea\stock1.1\src" />
+      <recent name="E:\idea\stock1.1\src\com\po" />
+      <recent name="E:\idea\stock1.1\src\com\stock" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dao.util" />
       <recent name="com.po" />
       <recent name="com.spider.easymoney" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\idea\stock1.1\src\com\dao\mapper" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\idea\stock1.1\src" />
-      <recent name="E:\idea\stock1.1\src\com\po" />
-      <recent name="E:\idea\stock1.1\lib" />
-      <recent name="E:\idea\stock1.1\src\com\stock" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -330,7 +375,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EasymoneySpider">
+  <component name="RunManager" selected="JUnit.SentimentMainV1.gogogo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Sentiment.Demo" />
+      <module name="stock1.1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Sentiment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="EasymoneySpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spider.easymoney.EasymoneySpider" />
       <module name="stock1.1" />
@@ -345,20 +401,20 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="EasymoneySpider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo.jsonDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stock1.1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spider.easymoney.util.*" />
+          <option name="PATTERN" value="com.Sentiment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.spider.easymoney" />
-      <option name="MAIN_CLASS_NAME" value="com.spider.easymoney.EasymoneySpider" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.Sentiment" />
+      <option name="MAIN_CLASS_NAME" value="com.Sentiment.Demo" />
+      <option name="METHOD_NAME" value="jsonDemo" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -368,19 +424,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EasymoneySpider.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo.pageDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stock1.1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spider.easymoney.util.*" />
+          <option name="PATTERN" value="com.Sentiment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.spider.easymoney" />
-      <option name="MAIN_CLASS_NAME" value="com.spider.easymoney.EasymoneySpider" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.Sentiment" />
+      <option name="MAIN_CLASS_NAME" value="com.Sentiment.Demo" />
+      <option name="METHOD_NAME" value="pageDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SentimentMainV1.gogogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stock1.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Sentiment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Sentiment" />
+      <option name="MAIN_CLASS_NAME" value="com.Sentiment.SentimentMainV1" />
+      <option name="METHOD_NAME" value="gogogo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -430,15 +509,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.EasymoneySpider.test" />
-      <item itemvalue="JUnit.EasymoneySpider" />
       <item itemvalue="Application.EasymoneySpider" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="JUnit.Demo.jsonDemo" />
+      <item itemvalue="JUnit.Demo.pageDemo" />
+      <item itemvalue="JUnit.SentimentMainV1.gogogo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SentimentMainV1.gogogo" />
+        <item itemvalue="JUnit.Demo.pageDemo" />
+        <item itemvalue="JUnit.Demo.jsonDemo" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.EasymoneySpider" />
-        <item itemvalue="JUnit.EasymoneySpider" />
-        <item itemvalue="JUnit.EasymoneySpider.test" />
       </list>
     </recent_temporary>
   </component>
@@ -464,76 +547,88 @@
       <workItem from="1528679763159" duration="105000" />
       <workItem from="1529158071550" duration="2307000" />
       <workItem from="1529224843996" duration="1437000" />
+      <workItem from="1529241395904" duration="4475000" />
+      <workItem from="1529398612306" duration="11657000" />
+      <workItem from="1529421800520" duration="3042000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo_test - 2018.06.09 at 23h 24m 09s.xml">
-      <configuration name="Demo.test" configurationId="JUnit" />
+    <history-entry file="Demo_jsonDemo - 2018.06.19 at 23h 31m 32s.xml">
+      <configuration name="Demo.jsonDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo_test - 2018.06.09 at 23h 28m 09s.xml">
-      <configuration name="Demo.test" configurationId="JUnit" />
+    <history-entry file="Demo_jsonDemo - 2018.06.19 at 23h 31m 59s.xml">
+      <configuration name="Demo.jsonDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo_test - 2018.06.09 at 23h 29m 52s.xml">
-      <configuration name="Demo.test" configurationId="JUnit" />
+    <history-entry file="Demo_jsonDemo - 2018.06.19 at 23h 32m 14s.xml">
+      <configuration name="Demo.jsonDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo_test - 2018.06.09 at 23h 45m 44s.xml">
-      <configuration name="Demo.test" configurationId="JUnit" />
+    <history-entry file="Demo_jsonDemo - 2018.06.19 at 23h 32m 27s.xml">
+      <configuration name="Demo.jsonDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo_test - 2018.06.09 at 23h 56m 15s.xml">
-      <configuration name="Demo.test" configurationId="JUnit" />
+    <history-entry file="Demo_jsonDemo - 2018.06.19 at 23h 35m 00s.xml">
+      <configuration name="Demo.jsonDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo_test - 2018.06.10 at 00h 00m 16s.xml">
-      <configuration name="Demo.test" configurationId="JUnit" />
+    <history-entry file="Demo_jsonDemo - 2018.06.19 at 23h 35m 12s.xml">
+      <configuration name="Demo.jsonDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo_test - 2018.06.10 at 00h 03m 23s.xml">
-      <configuration name="Demo.test" configurationId="JUnit" />
+    <history-entry file="Demo_jsonDemo - 2018.06.19 at 23h 36m 43s.xml">
+      <configuration name="Demo.jsonDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo_test - 2018.06.10 at 00h 07m 58s.xml">
-      <configuration name="Demo.test" configurationId="JUnit" />
+    <history-entry file="Demo_jsonDemo - 2018.06.19 at 23h 38m 18s.xml">
+      <configuration name="Demo.jsonDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo - 2018.06.10 at 14h 21m 45s.xml">
-      <configuration name="Demo" configurationId="JUnit" />
+    <history-entry file="Demo_pageDemo - 2018.06.19 at 23h 59m 41s.xml">
+      <configuration name="Demo.pageDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Demo - 2018.06.10 at 14h 22m 54s.xml">
-      <configuration name="Demo" configurationId="JUnit" />
+    <history-entry file="SentimentMainV1_gogogo - 2018.06.20 at 00h 02m 16s.xml">
+      <configuration name="SentimentMainV1.gogogo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33557000" />
+    <option name="totallyTimeSpent" value="52930000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49946353" weight="0.3289183" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005365" side_tool="true" weight="0.3289183" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299356" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.70724636" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32850942" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6523179" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289855" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32671082" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29352227" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.30686694" />
       <window_info anchor="right" id="Database" order="3" weight="0.3299595" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50164473" side_tool="true" weight="0.3025751" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50164473" side_tool="true" weight="0.3025751" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,78 +638,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/po/TcSentiment.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/po/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dao/mapper/CommentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dao/util/DBTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/EasymoneySpider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/po/Score.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/po/TcSentiment.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/po/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dao/mapper/CommentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -754,9 +777,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/stock/Score.java" />
     <entry file="file://$PROJECT_DIR$/src/com/stock/Stock.java" />
     <entry file="file://$PROJECT_DIR$/src/com/stock/TcSentiment.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/po/Score.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/MyBatis/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -775,37 +795,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/po/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/po/TcSentiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dao/mapper/CommentMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/CommentUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/741bf965-3ba5-499e-891a-099ed422f75f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -814,10 +806,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/po/EasymoneyComment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="374">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/CommentUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/po/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/po/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -845,47 +858,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/741bf965-3ba5-499e-891a-099ed422f75f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dao/mapper/CommentMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/TcSentimentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/fastjson-1.1.36.jar!/com/alibaba/fastjson/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/net.sf.json/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24794">
+          <caret line="1173" column="11" selection-start-line="1173" selection-start-column="11" selection-end-line="1173" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/po/TcSentiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Sentiment/httpUtil/TcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/po/EasymoneyComment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Sentiment/httpUtil/TcDoGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Sentiment/httpUtil/HttpRequestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/Sentiment/SentimentMain2.kt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Sentiment/SentimentMainV2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="104" column="39" lean-forward="true" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/EasymoneySpider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="352">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spider/easymoney/util/EasymoneyMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/mapper/CommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/mapper/TcSentimentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Sentiment/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Sentiment/SentimentMainV1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -895,10 +1010,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>stock1.1:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
