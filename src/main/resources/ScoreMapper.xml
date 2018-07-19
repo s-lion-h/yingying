@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.mapper.ScoreMapper">
+    <insert id="insertScore" parameterType="com.po.Score">
+        INSERT INTO `stock1.1`.`score`
+        (`stockid`, `date`, `postive`, `negative`, `method`, `score`)
+        VALUES
+        (#{stockid}, #{date},#{postive},#{negative},#{method},#{score});
+    </insert>
+</mapper>
