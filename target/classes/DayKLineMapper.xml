@@ -16,4 +16,7 @@
       #{dif,jdbcType=DOUBLE}, #{dea,jdbcType=DOUBLE}, #{macd,jdbcType=DOUBLE}, #{lot_volume,jdbcType=INTEGER},
       #{timestamp,jdbcType=VARCHAR}, #{time,jdbcType=VARCHAR})
   </insert>
+    <select id="getTradeDay" resultType="String">
+        select time from `stock1.1`.`DayLine` where stockid='SH600000'
+    </select>
 </mapper>

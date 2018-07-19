@@ -17,4 +17,5 @@
     <select id="listExampleStock" resultType="com.po.Stock">
         select * from stockexample
     </select>
+    <select id="getRelation"
 </mapper>

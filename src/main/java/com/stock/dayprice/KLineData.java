@@ -46,7 +46,12 @@ public class KLineData {
 
         JSONObject jsonObject=new JSONObject(content);
 //        System.out.println(jsonObject);
-        JSONArray jsonArray=jsonObject.getJSONArray("chartlist");
+        JSONArray jsonArray=null;
+        if (!jsonObject.has("chartlist")){
+            System.out.println("org.json.JSONException: JSONObject[\"chartlist\"] not found.");
+            return null;
+        }
+        jsonArray=jsonObject.getJSONArray("chartlist");
 //        System.out.println(jsonArray);
         int length=jsonArray.length();
         List<DataPo> list=new ArrayList<DataPo>();
