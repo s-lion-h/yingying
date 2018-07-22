@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.mapper.CommentMapper">
+    <insert id="addStockComment" parameterType="com.po.StockComment">
+        INSERT INTO `${stockId}` (text,date) VALUES (#{text},#{date});
+    </insert>
+    <!--<insert id="addStockComment" parameterType="com.po.StockComment">-->
+        <!--INSERT INTO `#{stockId}` (text) VALUES (#{text});-->
+    <!--</insert>-->
+    <select id="listStockId" resultType="string">
+        select stockid from stockexample;
+    </select>
+    <select id="listBdSentiment" parameterType="String" resultType="com.po.BdSentiment">
+        select * from `${stockId}`;
+    </select>
+    <select id="listBdSentimentLimit" parameterType="Integer" resultType="com.po.BdSentiment">
+        select * from `${arg0}` limit #{arg1} , #{arg2};
+    </select>
+    <select id="listByDate" parameterType="String" resultType="com.po.BdSentiment">
+        select * from `${stockId}` where date like '${date}%';
+    </select>
+</mapper>

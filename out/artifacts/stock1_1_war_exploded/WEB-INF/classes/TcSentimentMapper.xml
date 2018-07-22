@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.mapper.TcSentimentMapper">
+    <select id="listAllSentimentById" parameterType="String" resultType="com.po.TcSentiment">
+        select * from `${stockId}`
+    </select>
+    <select id="listSentimentByIdNum" parameterType="Integer" resultType="com.po.TcSentiment">
+        select * from `${arg0}` limit #{arg1} , #{arg2};
+    </select>
+    <update id="updateSentiment" parameterType="com.po.TcSentiment">
+        UPDATE `${stockId}` SET polar = #{polar} , confd = #{confd} WHERE id = #{id};
+    </update>
+    <update id="updateBdSentiment" parameterType="com.po.BdSentiment">
+        UPDATE `${stockId}` SET sentiment = #{sentiment} ,confidence = #{confidence} ,positive_prob = #{positive_prob} , negative_prob = #{negative_prob} WHERE id = #{id};
+    </update>
+</mapper>

@@ -18,8 +18,9 @@ public class DataDemo {
     private static List<String> tradeDayList=session.selectList("getTradeDay");
 
     public static void main(String[] args) throws ParseException {
-        /*for (String stockId:stocklist) {
-            String stock="SH"+stockId;
+        for (String stockId:stocklist) {
+            String stock="SH000001";
+//            String stock="SH"+stockId;
             DataUrl dataUrl=new DataUrl(stock,"1451577600000","1529596800000");
             String url=dataUrl.getUrl();
             List<DataPo> list=KLineData.getDayKLineObjects(url,stock);
@@ -30,11 +31,11 @@ public class DataDemo {
                 }
             }
             session.commit();
-        }*/
-
-        for (String trade:tradeDayList){
-            System.out.println(trade);
         }
+
+//        for (String trade:tradeDayList){
+//            System.out.println(trade);
+//        }
     }
 
 
